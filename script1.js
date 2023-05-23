@@ -26,6 +26,4 @@ function getPrimes(n) {
     return primes;
 }
 
-console.log(getPrimes(-3))
-console.log(getPrimes(3))
-console.log(getPrimes(10))
+console.log(getPrimes(process.argv[2]))
